@@ -82,6 +82,12 @@ div.a {
     color: white;
 }
 
+.jolly {
+    height: auto;
+    width: 100vw;
+    overflow: hidden;
+}
+
 @media (max-width: 900px) {
     div.main  {
       flex-direction: column;
@@ -92,6 +98,8 @@ div.a {
     div.a {
         margin-bottom: 200px;
     }
+
+}
 }
 
 @media (max-width: 1533px) {
@@ -104,15 +112,5 @@ div.a {
     div.a {
         margin-bottom: 200px;
     }
-}
-
-.imgJ {
-    text-align: center;
-}
-
-.jolly {
-    cursor:crosshair;
-    margin-top: 50px;
-    height: 92px;
-    width: 960px;
+    
 }
